@@ -19,7 +19,7 @@ First, I created a Jupyter notebook to see the data, preprocess it and write it 
 
 After that, I created another notebook (this time in Google Collab) to run all the experiments and to get the final results over the test set.
 
-You can find those notebooks and the rest of the files needed to make it run on the repository. I attached the memory I wrote there as well (only available in spanish so far 😅)
+You can find those notebooks and the rest of the files needed to make it run on the repository. I attached the document I wrote there as well (only available in spanish so far 😅)
 
 
 ## Conclusions and Results
