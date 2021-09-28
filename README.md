@@ -16,15 +16,16 @@ In order to address this problem, the dataset provided contains 1364 images (aro
 I split the main goal in two different ones to deep in step by step.
 
 First, I created a Jupyter notebook to see the data, preprocess it and write it back to make it compatible with the detection algorithm I was going to use: YOLO.
+This notebook (called 'Preprocessing.ipynb') visualises the data and apply a transformation to the data provided to feed the YOLO algorithm as required.
 
-After that, I created another notebook (this time in Google Collab) to run all the experiments and to get the final results over the test set.
+After that, I created another notebook (this time in Google Collab) to run all the experiments and to get the final results over the test set. This notebook ('YOLO_V3.ipynb') uses the Darknet framework, copy all the files needed for the training and testing time and train the algorithm. Finally, it makes some predictions to test images.
 
 You can find those notebooks and the rest of the files needed to make it run on the repository. I attached the document I wrote there as well (only available in spanish so far 😅)
 
 
 ## Conclusions and Results
 
-The results were not so bad taking into account the unbalanced dataset given (around 95/5) and the limited factors I had to face: time to deadline and Google Collab resources. The best model I trained got a 41.45% in the mAP metric for the test test! Nothing to be ashamed of!
+The results were not so bad taking into account the unbalanced dataset given (around 95/5) and the limited factors I had to face: time to deadline and Google Collab resources. The best model I trained got a 41.45% in the mAP metric for the test test! Nothing to be ashamed of! There are some test images predicted in the repository as well.
 
 As a recap of everything just mentioned:
 + The problem itself was not trivial at all and it was quite a challenge. Specially the preprocessing stage.
