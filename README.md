@@ -16,9 +16,9 @@ In order to address this problem, the dataset provided contains 1364 images (aro
 I split the main goal in two different ones to deep in step by step.
 
 First, I created a Jupyter notebook to see the data, preprocess it and write it back to make it compatible with the detection algorithm I was going to use: YOLO.
-This notebook (called 'Preprocessing.ipynb') visualises the data and apply a transformation to the data provided to feed the YOLO algorithm as required.
+This notebook (called _Preprocessing.ipynb_) visualises the data and apply a transformation to the data provided to feed the YOLO algorithm as required.
 
-After that, I created another notebook (this time in Google Collab) to run all the experiments and to get the final results over the test set. This notebook ('YOLO_V3.ipynb') uses the Darknet framework, copy all the files needed for the training and testing time and train the algorithm. Finally, it makes some predictions to test images.
+After that, I created another notebook (this time in Google Collab) to run all the experiments and to get the final results over the test set. This notebook (_YOLO_V3.ipynb_) uses the Darknet framework, copy all the files needed for the training and testing time and train the algorithm. Finally, it makes some predictions to test images.
 
 You can find those notebooks and the rest of the files needed to make it run on the repository. I attached the document I wrote there as well (only available in spanish so far 😅)
 
