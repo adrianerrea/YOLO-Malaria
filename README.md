@@ -30,6 +30,6 @@ The results were not so bad taking into account the unbalanced dataset given (ar
 As a recap of everything just mentioned:
 + The problem itself was not trivial at all and it was quite a challenge. Specially the preprocessing stage.
 + The unbalanced dataset limited the results and oversampling and undersampling techniques could have been tried to improve that.
-+ Training with more muscle surely would have ended up in better results: bigger images, training longer, training with big model and so on.
++ Training with more muscle surely would have ended up in better results: bigger images, training longer, training with a big model and so on.
 + Different hyperparameters selection could have pushed a litte more the metric.
-+ Obtaining more data usually a good idea. However, it should have some quality and in our case it should be public. So, we did not use any external help but I am pretty sure it would have helped a bit more.
++ Obtaining more data is usually a good idea. However, it should have some quality and in our case it should be public. So, we did not use any external help but I am pretty sure it would have helped a bit more.
